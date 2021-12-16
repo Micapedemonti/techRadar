@@ -1,0 +1,459 @@
+*{margin:0;
+    padding:0
+   }
+   
+   body{
+       background-image: url(../images/sunset.jfif);
+       background-repeat: no-repeat;
+       background-size:cover;
+       background-attachment: fixed;
+       background-position: center center;
+   }
+   
+.welcome-title{
+       color:white;
+       font-family: 'Julius Sans One', sans-serif;
+       font-size: 2em;
+       text-align: center;
+ }
+ .animate__animated{
+     animation-duration: 3s;
+ }
+
+   h2{
+   
+       color:white;
+       font-family: 'Julius Sans One', sans-serif;
+       font-family: 30%;
+   
+   }
+   
+   .menu li:hover {
+   background-color:black;
+   } 
+   
+   .menu{
+   list-style: none;
+   background-color:transparent;
+   width: 100%;
+   position:sticky;
+   } 
+   .menu li a{
+       text-decoration: none;
+       color:white;
+       padding: 1.3em;
+       display: block;
+       font-family: 'Julius Sans One', sans-serif
+   } 
+   
+   .menu li{
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+   }
+   .header{
+       display:flex;
+       justify-content:space-around;
+       align-items: center;
+       padding:1.3em;
+   
+   }
+   
+   main{
+       flex-direction: column;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       color: white;
+       font-family: 'Julius Sans One', sans-serif;
+       margin-top: 3;
+   }
+    
+   .fotos{
+   
+       display: grid;
+       grid-template-columns:30% 30% 30%;
+       grid-template-rows:auto;
+       grid-gap: 2%;
+       justify-content: center;
+       align-items:start;
+   
+   }   
+   
+   div h2{
+       color:white;
+       font-family: 'Julius Sans One', sans-serif;
+       text-align: center;
+       font-size: 100%;
+   }
+   .prox-event{
+    color:white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2em;
+    text-align: center;
+   }
+
+   .eventos{
+       height: 50%;
+       border-radius:5%;
+       color: white;
+       border:3px solid #fff;
+       box-shadow: 10px 10px 5px #ccc;
+       margin-bottom: 5%;
+       transition: 0.5ms;
+   }  
+
+   .eventos:hover{
+       transform: scale(110%,110%);
+   }
+   
+   .party{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       /* padding: 15%; */
+   }
+   
+   .party h2{
+       font-size: 1.2em;
+       color: black;
+       font-family:'Julius Sans One', sans-serif;
+       background-color: beige;
+       padding: 5%;
+       border-radius: 10px;
+   }  
+   
+   .party p {
+     font-family: 'Jaldi', sans-serif;
+     background-color: rgba(0,0,0,.6); 
+     font-size: 1.3em;
+     padding:10%;
+     tab-size: 10%;
+     text-align: center;  
+     justify-content:center;
+   }   
+   
+   .nav-footer{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   
+   }   
+   footer{
+       background-color:#ffd214;
+       position: fixed;
+       bottom: 0;
+       width: 100%;
+       height: auto;
+       text-align: left;
+   }
+   .footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+   }
+   .footer-p{
+       font-family:'Julius Sans One', sans-serif;  
+       font-size: 1.2em;
+       color:black;
+       text-align: left;
+   }   
+   footer ul {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       list-style: none;
+       margin-left: 80%;
+       padding: 0%;
+   }
+   
+   footer ul li  {
+       display: flex;
+       align-items: center;
+       text-decoration: none;
+       color: black;
+   }
+   
+   
+   .logos{
+       width:50%;
+       height:40;
+       display:flex;
+       align-items:center;
+       justify-content:center;
+   }
+
+.card-body{
+    background-color:rgba(0,0,0,.6);
+    border-radius: 4px;
+}
+.card-text{
+    font-family: 'Jaldi', sans-serif;
+}
+ 
+
+. main h1{
+       font-size: 1.5em;
+       font-family:'Julius Sans One', sans-serif; 
+       color:white;
+       text-align: center;
+       margin-bottom: 5%;
+}
+   
+
+   .nosotros-tittle{
+    font-size: 1.5em;
+    font-family:'Julius Sans One', sans-serif; 
+    color:white;
+    text-align: center;
+    margin-top:5%; 
+   }
+   .nosotros-text{
+        margin-bottom: 12%;
+        height: 50%;
+        width: 50%;
+        background-color: rgba(0,0,0,.6); 
+        padding: 5%;
+        font-size: 1.5em;
+        font-family:'Jaldi', sans-serif;
+        color:white;
+   }
+   
+   main h2{
+       display: flex;
+       text-align: center;
+   }
+   
+   .videos{
+    display: grid;
+    grid-template-columns:40% 40% ;
+    grid-template-rows:auto;
+    grid-gap:30%;
+    justify-content: center;
+   }
+   
+   .entradas{
+       display: grid;
+       grid-template-columns:40% 40% ;
+       grid-template-rows:auto;
+       grid-gap:20%;
+   }
+   .pases{
+       border-radius:5%;
+       color: white;
+       border:3px solid #fff;
+       box-shadow: 10px 10px 5px #ccc;
+   }
+   .botones{
+       margin-bottom: 20%;
+   }
+   .btn{
+   text-decoration: none;
+   padding: 5% 5%;
+   display: inline-block;
+   border-radius: 3px;
+   border-style: groove;
+   }
+   .btn-green{
+   color:white;
+   display: inline-block;
+   flex-direction: column;
+   justify-content: space-between;
+   }
+   .btn-green:hover{
+       background-color: orange;
+   }
+   .entradatit{
+       font-size:1.5em;
+       color: white;
+       font-family:'Julius Sans One', sans-serif;
+       margin-bottom: 10%;
+   }
+   .animate__zoomOut{
+       animation-duration:5;
+   }
+   .card{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       padding: 10%;
+       margin-bottom: 10%;    
+       border: none;
+       background-color: transparent;
+   }
+
+   iframe{
+       padding: 5%;
+   } 
+
+   @media only screen and (max-width:1500px){
+       .footer-p{
+        flex-direction: column;
+        font-size: 0.9em;
+      }      
+      .footer-container{
+        flex-direction: column;
+    
+       }
+
+      .form-contact{
+        width: 50%;
+        font-size: 1em;
+    
+    }
+     
+    .controls{
+        margin-bottom:5%;
+        font-size: 1em;
+    } 
+
+
+@media only screen and (max-width:900px){
+    .header{
+        flex-direction: column;
+    }
+
+  .menu li {
+        display:block;          
+} 
+.menu{
+    width: 100%;
+    position:sticky;
+    } 
+    .menu li a{
+        text-decoration: none;
+        color:white;
+        padding: 1.3em;
+        display: block;
+        font-family: 'Julius Sans One', sans-serif
+    } 
+    
+    .menu li{
+         display: inline-block;
+         text-align: center;
+         justify-content: center;
+    }
+
+    .fotos{
+   
+        grid-template-columns:40% 40% ;
+        grid-template-rows:auto  ;
+        grid-gap: 2%;
+    }   
+
+.entradas{
+grid-template-columns:35% 35%;
+margin-bottom: 15%;
+}
+.Ad-memb h2{
+    margin-top: 15%;
+} 
+.form-contact{
+    width: 50%;
+    font-size: 1em;
+
+}
+ 
+.controls{
+    margin-bottom:5%;
+    font-size: 1em;
+} 
+.footer-container{
+    flex-direction: column;
+
+   }
+ 
+@media only screen and (max-width:663px){
+    .header{
+        flex-direction: column;
+    }
+.menu li {
+            display:block;          
+} 
+        
+.welcome-title{
+            font-size: 1.5em;
+            text-align: center;
+}
+
+.fotos{
+        grid-template-columns:100%;
+        grid-template-rows:auto;
+    }   
+
+    .eventos{
+
+        width: 45%;
+        height:auto;
+    }  
+
+    .party{
+        padding: 11%;
+    }
+
+    .party p {
+        font-size: 1.2em;
+        padding: 11%;
+
+
+      }   
+
+    .party h2{
+        font-size: 1em;
+
+    }  
+.prox-event{
+    font-size: 1.5em;
+
+}
+.videos{
+    grid-template-columns:100% ;
+    grid-template-rows:auto;
+}
+.nosotros-tittle{
+        margin-top:5%; 
+       }
+ .nosotros-text{
+            margin-bottom: 12%;
+    
+            padding: 5%;
+          
+       }
+.entradas{
+    grid-template-columns:100% ;
+    grid-template-rows:auto;
+
+}
+
+.form-contact{
+    width: 60%;
+    height: 40%;
+    margin-top:10%; 
+    font-size: 1em;
+
+}
+ 
+.controls{
+    margin-bottom:5%;
+    font-size: 1em;
+} 
+
+.footer-p{
+    font-size: 0.8em;
+}   
+
+.footer-container{
+    flex-direction: column;
+
+   }
+
+.logos{
+    width:60%;
+    height:auto;
+    flex-direction: column;
+  }
+
+}
