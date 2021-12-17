@@ -31,7 +31,7 @@
    .menu li:hover {
    background-color:black;
    } 
-   
+
    .menu{
    list-style: none;
    background-color:transparent;
@@ -77,6 +77,7 @@
        grid-gap: 2%;
        justify-content: center;
        align-items:start;
+       margin-top: 5%;
    
    }   
    
@@ -97,8 +98,8 @@
        height: 50%;
        border-radius:5%;
        color: white;
-       border:3px solid #fff;
-       box-shadow: 10px 10px 5px #ccc;
+       border:3px solid white;
+       box-shadow: 10px 10px 5px black;
        margin-bottom: 5%;
        transition: 0.5ms;
    }  
@@ -112,7 +113,6 @@
        justify-content: center;
        align-items: center;
        flex-direction: column;
-       /* padding: 15%; */
    }
    
    .party h2{
@@ -184,7 +184,9 @@
        align-items:center;
        justify-content:center;
    }
-
+.form-contact{
+    width: 40%;
+}
 .card-body{
     background-color:rgba(0,0,0,.6);
     border-radius: 4px;
@@ -225,26 +227,28 @@
        display: flex;
        text-align: center;
    }
-   
+   /* hoy modifique esto */
    .videos{
     display: grid;
     grid-template-columns:40% 40% ;
     grid-template-rows:auto;
-    grid-gap:30%;
+    grid-gap:20%;
     justify-content: center;
+    margin-top: 5%;
    }
-   
+   /* hoy modifique esto */
    .entradas{
        display: grid;
        grid-template-columns:40% 40% ;
        grid-template-rows:auto;
        grid-gap:20%;
+       margin-top: 5%;
    }
    .pases{
        border-radius:5%;
        color: white;
        border:3px solid #fff;
-       box-shadow: 10px 10px 5px #ccc;
+       box-shadow: 10px 10px 5px black;
    }
    .botones{
        margin-bottom: 20%;
@@ -298,19 +302,22 @@
         flex-direction: column;
     
        }
-
+/* hoy modifique esto */
       .form-contact{
-        width: 50%;
-        font-size: 1em;
-    
+        width: auto;
     }
-     
+    /* hoy modifique esto */
+    .nosotros-text{
+        margin-top:3%;
+ }
+
     .controls{
         margin-bottom:5%;
         font-size: 1em;
     } 
-
-
+.videos{
+    margin-top: 5%;
+}
 @media only screen and (max-width:900px){
     .header{
         flex-direction: column;
@@ -344,19 +351,26 @@
         grid-gap: 2%;
     }   
 
+/* hoy modifique esto */
+    .nosotros-text{
+        margin-top: 10%;
+ }
+/* hoy modifique esto */
+
+/* hoy modifique esto */
 .entradas{
 grid-template-columns:35% 35%;
 margin-bottom: 15%;
 }
+/* hoy modifique esto */
 .Ad-memb h2{
     margin-top: 15%;
 } 
+/* hoy modifique esto */
 .form-contact{
-    width: 50%;
-    font-size: 1em;
-
+    width:auto;
 }
- 
+ /* hoy modifique esto */
 .controls{
     margin-bottom:5%;
     font-size: 1em;
@@ -386,7 +400,7 @@ margin-bottom: 15%;
 
     .eventos{
 
-        width: 45%;
+        width: auto%;
         height:auto;
     }  
 
@@ -402,7 +416,7 @@ margin-bottom: 15%;
       }   
 
     .party h2{
-        font-size: 1em;
+        font-size: 0.8em;
 
     }  
 .prox-event{
@@ -412,30 +426,28 @@ margin-bottom: 15%;
 .videos{
     grid-template-columns:100% ;
     grid-template-rows:auto;
+    grid-gap: 5%;
 }
 .nosotros-tittle{
         margin-top:5%; 
        }
  .nosotros-text{
-            margin-bottom: 12%;
-    
-            padding: 5%;
-          
-       }
+        font-size: 1em;
+        margin-top: 7%;
+        padding: 10%;
+        width: auto;
+ }
 .entradas{
     grid-template-columns:100% ;
     grid-template-rows:auto;
+    grid-gap: 5%;
 
 }
-
+/* hoy modifique esto */
 .form-contact{
-    width: 60%;
-    height: 40%;
-    margin-top:10%; 
-    font-size: 1em;
-
+    width:auto;
 }
- 
+ /* hoy modifique esto */
 .controls{
     margin-bottom:5%;
     font-size: 1em;
@@ -446,8 +458,7 @@ margin-bottom: 15%;
 }   
 
 .footer-container{
-    flex-direction: column;
-
+    position: relative;
    }
 
 .logos{
