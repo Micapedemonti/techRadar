@@ -204,25 +204,28 @@
        margin-bottom: 5%;
 }
    
+.img-nos{    
+    border-radius: 50%;
+    opacity: 0.9;
+    margin-top: 5%;
+}
+..animate__backInLeft{
+    animation-duration: 2s;
+}
+.nosotros-tittle{
+   font-size: 2em;
+   font-family:'Jaldi', sans-serif;
+   color:white;
+}
+.nosotros-text{
+   font-size: 1.5em;
+   font-family:'Jaldi', sans-serif;
+   color:white;
+   background-color: rgba(0,0,0,.6); 
+    width: 50%;
+    animation-duration: 2s;
+}
 
-   .nosotros-tittle{
-    font-size: 1.5em;
-    font-family:'Julius Sans One', sans-serif; 
-    color:white;
-    text-align: center;
-    margin-top:5%; 
-   }
-   .nosotros-text{
-        margin-bottom: 12%;
-        height: 50%;
-        width: 50%;
-        background-color: rgba(0,0,0,.6); 
-        padding: 5%;
-        font-size: 1.5em;
-        font-family:'Jaldi', sans-serif;
-        color:white;
-   }
-   
    main h2{
        display: flex;
        text-align: center;
@@ -302,11 +305,10 @@
         flex-direction: column;
     
        }
-/* hoy modifique esto */
       .form-contact{
         width: auto;
     }
-    /* hoy modifique esto */
+
     .nosotros-text{
         margin-top:3%;
  }
@@ -351,26 +353,17 @@
         grid-gap: 2%;
     }   
 
-/* hoy modifique esto */
-    .nosotros-text{
-        margin-top: 10%;
- }
-/* hoy modifique esto */
-
-/* hoy modifique esto */
 .entradas{
 grid-template-columns:35% 35%;
 margin-bottom: 15%;
 }
-/* hoy modifique esto */
+
 .Ad-memb h2{
     margin-top: 15%;
 } 
-/* hoy modifique esto */
 .form-contact{
     width:auto;
 }
- /* hoy modifique esto */
 .controls{
     margin-bottom:5%;
     font-size: 1em;
@@ -381,7 +374,7 @@ margin-bottom: 15%;
    }
  
 @media only screen and (max-width:663px){
-    .header{
+   .header{
         flex-direction: column;
     }
 .menu li {
@@ -398,24 +391,24 @@ margin-bottom: 15%;
         grid-template-rows:auto;
     }   
 
-    .eventos{
+.eventos{
 
         width: auto%;
         height:auto;
     }  
 
-    .party{
+.party{
         padding: 11%;
     }
 
-    .party p {
+.party p {
         font-size: 1.2em;
         padding: 11%;
 
 
       }   
 
-    .party h2{
+.party h2{
         font-size: 0.8em;
 
     }  
@@ -428,26 +421,18 @@ margin-bottom: 15%;
     grid-template-rows:auto;
     grid-gap: 5%;
 }
-.nosotros-tittle{
-        margin-top:5%; 
-       }
- .nosotros-text{
-        font-size: 1em;
-        margin-top: 7%;
-        padding: 10%;
-        width: auto;
- }
+
 .entradas{
     grid-template-columns:100% ;
     grid-template-rows:auto;
     grid-gap: 5%;
 
 }
-/* hoy modifique esto */
+
 .form-contact{
     width:auto;
 }
- /* hoy modifique esto */
+
 .controls{
     margin-bottom:5%;
     font-size: 1em;
