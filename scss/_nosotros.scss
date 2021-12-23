@@ -1,0 +1,28 @@
+.nosotros-tittle{
+    font-size: $fontTam;
+    font-family:$fontStyle;
+    color:$colorFont;
+}
+.nosotros-text{
+    font-size: 1.5em;
+    font-family:$fontStyle;
+    color:$colorFont;
+    background-color: rgba(0,0,0,.6); 
+    width: 50%;
+    animation-duration: 2s;
+}
+
+
+.img-nos{    
+    border-radius: 50%;
+    opacity: 0.9;
+    margin-top: 5%;
+}
+.animate__backInLeft{
+    animation-duration: 2s;
+}   
+.animate__zoomOut{
+    animation-duration:5s;
+}
+
+
