@@ -147,6 +147,17 @@ main {
   animation-duration: 5s;
 }
 
+.videos {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: auto;
+  grid-gap: 20%;
+  justify-content: center;
+}
+.videos iframe {
+  padding: 5%;
+}
+
 .entradatit {
   font-size: 1.5em;
   color: white;
