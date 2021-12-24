@@ -31,8 +31,9 @@ main {
 
 .footer-container {
   opacity: 0.9;
-  position: static;
+  position: fixed;
   bottom: 0;
+  width: 100%;
 }
 
 .menu {
@@ -249,49 +250,6 @@ main {
     width: 100%;
     position: sticky;
   }
-  .menuli {
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-    display: block;
-  }
-  .menu li a {
-    text-decoration: none;
-    color: white;
-    padding: 1.3em;
-    display: block;
-    font-family: "Julius Sans One", sans-serif;
-  }
-
-  .fotos {
-    grid-template-columns: 40% 40%;
-    grid-template-rows: auto;
-    gap: 2%;
-  }
-
-  .Ad-memb h2 {
-    margin-top: 15%;
-  }
-
-  .entradas {
-    grid-template-columns: 35% 35%;
-    margin-bottom: 15%;
-  }
-
-  .controls {
-    margin-bottom: 5%;
-    font-size: 1em;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .header {
-    flex-direction: column;
-  }
-
-  .menu {
-    width: 100%;
-    position: sticky;
-  }
   .menu li {
     display: block;
     display: inline-block;
@@ -324,6 +282,10 @@ main {
   .controls {
     margin-bottom: 5%;
     font-size: 1em;
+  }
+
+  .footer-container {
+    position: static;
   }
 }
 @media only screen and (max-width: 663px) {
@@ -385,6 +347,10 @@ main {
 
   .footer-p {
     font-size: 0.8em;
+  }
+
+  .footer-container {
+    position: static;
   }
 
   .logos {
