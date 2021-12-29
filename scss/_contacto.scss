@@ -1,3 +1,7 @@
+.tittle-contact{
+@extend .welcome-title;
+}
+
 .contacto{
        background-color:rgba(0,0,0,.6);
        border-radius: 4px;
@@ -5,9 +9,13 @@
        border-radius: 5%;
 }    
 .card-text{
-       font-family:$fontStyle;
+       @include nosotros-texto($fontStyle, 1.2em, $colorFont, transparent);
 }
 .boton-contacto{
     box-shadow: 0 2px 10px white ;
     color: $colorFont;
+}
+     .boton-contacto:hover {
+       background-color:orange;
+
 }

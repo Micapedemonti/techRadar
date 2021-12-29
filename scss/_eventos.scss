@@ -1,3 +1,7 @@
+.prox-event{
+    @extend .welcome-title;
+}
+
 .videos{
     display: grid;
     grid-template-columns:40% 40% ;

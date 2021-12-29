@@ -1,18 +1,19 @@
 .nosotros-tittle{
+ @extend .welcome-title;
+}
+
+
+@mixin nosotros-texto ($fontStyle, $fontTam, $colorFont, $colorBg){
+    font-family:$fontStyle;
     font-size: $fontTam;
-    font-family:$fontStyle;
     color:$colorFont;
+    background-color:$colorBg;
 }
-.nosotros-text{
-    font-size: 1.5em;
-    font-family:$fontStyle;
-    color:$colorFont;
-    background-color: rgba(0,0,0,.6); 
-    width: 50%;
-    animation-duration: 2s;
+.nosotros-texto{
+    @include nosotros-texto ($fontStyle, 1.5em, $colorFont, $colorBg);
+      width: 50%;
+      animation-duration: 2s;
 }
-
-
 .img-nos{    
     border-radius: 50%;
     opacity: 0.9;

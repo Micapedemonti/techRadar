@@ -1,9 +1,5 @@
 .entradatit{
-    font-size:1.5em;
-    color: white;
-    font-family:$fontStyle;
-    margin-bottom: 10%;
-
+@extend .welcome-title;
 }
 .entradas{
     display: grid;

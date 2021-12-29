@@ -12,11 +12,17 @@
         color:white;
         padding: 1.3em;
         display: block;
-        font-family: 'Julius Sans One', sans-serif
+        font-family: $fontStyle;
+        font-size: 1.2em;
     } 
     & li:hover {
-        background-color:black;
-    } 
+        background-color:$colorBg;
+        border-radius: 5%;
+     }
+     
+    & li a:hover {
+         color: white;
+     }
 }
 
 .boton-icon{

@@ -52,14 +52,14 @@
       padding: 5%;
       border-radius: 10px;
     }  
-
-    & p {
-      font-family: $fontStyle;
-      background-color: rgba(0,0,0,.6); 
-      font-size: 1.3em;
-      padding:10%;
-      tab-size: 10%;
-      text-align: center;  
-      justify-content:center;
-   }
-}  
+   
+    & p{
+     font-family: $fontStyle;
+     font-size: 1em;
+     tab-size: 10%;
+     text-align: center;  
+     justify-content:center;
+     background-color: $colorBg;
+     padding: 10%;
+    }
+}
