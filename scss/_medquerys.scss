@@ -1,5 +1,7 @@
 @media only screen and (max-width:1500px){
-
+main{
+    margin-bottom: 30%;
+}
 .nosotros-texto{
     margin-top:3%;
 }
@@ -14,7 +16,10 @@
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 990px) {
+main{
+    margin-bottom: 30%;
+}
 .header{
     flex-direction: column;
 }
@@ -49,6 +54,7 @@
 .entradas {
     grid-template-columns: 35% 35%;
     margin-bottom: 15%;
+    margin-top: 10%;
 }
 .controls {
     margin-bottom: 5%;
@@ -57,6 +63,9 @@
 
 }
 @media only screen and (max-width:663px){
+    main{
+        margin-bottom: 30%;
+    }
 .header{
     flex-direction: column;
 }
@@ -103,6 +112,10 @@
     grid-template-rows:50%;
     gap: 5%;
 }
+.pases{
+    width: auto;
+    height:auto;
+  } 
 .form-contact{
     width:auto;
 }    
@@ -114,7 +127,8 @@
     font-size: 0.8em;
     }   
 .footer-container{
-    position: static;
+    position: relative;
+    bottom: 0;
 }    
 .logos{
     width:60%;

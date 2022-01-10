@@ -25,13 +25,13 @@ main {
   justify-content: center;
   color: white;
   font-family: "Julius Sans One", sans-serif;
-  margin-top: 3%;
-  margin-bottom: 12%;
+  margin-top: 5%;
+  margin-bottom: 20%;
 }
 
 .footer-container {
   opacity: 0.9;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -68,7 +68,7 @@ main {
 .welcome-title, .tittle-contact, .entradatit, .prox-event, .nosotros-tittle {
   color: white;
   font-family: "Jaldi", sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
 }
 
@@ -153,6 +153,7 @@ main {
   grid-template-rows: auto;
   grid-gap: 20%;
   justify-content: center;
+  margin: 5%;
 }
 .videos iframe {
   padding: 5%;
@@ -163,6 +164,7 @@ main {
   grid-template-columns: 40% 40%;
   grid-template-rows: auto;
   gap: 20%;
+  margin-top: 5%;
 }
 
 .card {
@@ -227,6 +229,10 @@ main {
 }
 
 @media only screen and (max-width: 1500px) {
+  main {
+    margin-bottom: 30%;
+  }
+
   .nosotros-texto {
     margin-top: 3%;
   }
@@ -240,7 +246,11 @@ main {
     margin-top: 5%;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 990px) {
+  main {
+    margin-bottom: 30%;
+  }
+
   .header {
     flex-direction: column;
   }
@@ -276,6 +286,7 @@ main {
   .entradas {
     grid-template-columns: 35% 35%;
     margin-bottom: 15%;
+    margin-top: 10%;
   }
 
   .controls {
@@ -284,6 +295,10 @@ main {
   }
 }
 @media only screen and (max-width: 663px) {
+  main {
+    margin-bottom: 30%;
+  }
+
   .header {
     flex-direction: column;
   }
@@ -331,6 +346,11 @@ main {
     gap: 5%;
   }
 
+  .pases {
+    width: auto;
+    height: auto;
+  }
+
   .form-contact {
     width: auto;
   }
@@ -345,7 +365,8 @@ main {
   }
 
   .footer-container {
-    position: static;
+    position: relative;
+    bottom: 0;
   }
 
   .logos {
