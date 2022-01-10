@@ -1,7 +1,7 @@
 {
   "name": "techradar",
   "version": "1.0.0",
-  "description": "",
+  "description": "Techno radar es una aplicacion web donde encontras informacion de interes como eventos, djs y tambien podras adquirir membresias para asistir a estos eventos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,7 @@
   "devDependencies": {
     "node-sass": "^7.0.0",
     "nodemon": "^2.0.15"
+    "MDB UI KIT"
+    "BOOTSTRAP"
   }
 }
