@@ -32,6 +32,8 @@
     box-shadow: 10px 10px 5px black;
     margin-bottom: 5%;
     transition: 0.5ms;  
+    border-radius: 50%;
+    opacity: 90%;
 
     &:hover{
        transform: scale(110%,110%);

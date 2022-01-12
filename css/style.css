@@ -95,6 +95,8 @@ main {
   box-shadow: 10px 10px 5px black;
   margin-bottom: 5%;
   transition: 0.5ms;
+  border-radius: 50%;
+  opacity: 90%;
 }
 .eventos:hover {
   transform: scale(110%, 110%);
@@ -181,6 +183,7 @@ main {
   color: white;
   border: 3px solid #fff;
   box-shadow: 10px 10px 5px black;
+  opacity: 80%;
 }
 
 .btn {
