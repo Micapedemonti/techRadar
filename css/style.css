@@ -81,7 +81,7 @@ main {
   display: grid;
   grid-template-columns: 30% 30% 30%;
   grid-template-rows: auto;
-  gap: 2%;
+  gap: 1%;
   justify-content: center;
   align-items: start;
   margin-top: 5%;
@@ -147,16 +147,14 @@ main {
   animation-duration: 5s;
 }
 
-.videos {
-  display: grid;
-  grid-template-columns: 40% 40%;
-  grid-template-rows: auto;
-  grid-gap: 20%;
-  justify-content: center;
-  margin: 5%;
+.tit-event {
+  font-family: "Jaldi", sans-serif;
+  font-size: 1.5em;
 }
-.videos iframe {
-  padding: 5%;
+
+.text-event {
+  font-family: "Jaldi", sans-serif;
+  font-size: 1.3em;
 }
 
 .entradas {
@@ -210,6 +208,10 @@ main {
   border-radius: 4px;
   padding: 5%;
   border-radius: 5%;
+}
+
+.formulario {
+  box-shadow: none;
 }
 
 .card-text {
