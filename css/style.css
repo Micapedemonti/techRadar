@@ -192,7 +192,7 @@ main {
 }
 
 .btn-green {
-  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
   display: inline-block;
   flex-direction: column;
   justify-content: space-between;
