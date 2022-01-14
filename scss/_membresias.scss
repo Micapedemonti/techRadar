@@ -3,10 +3,11 @@
 }
 .entradas{
     display: grid;
-    grid-template-columns:40% 40% ;
+    grid-template-columns:35% 35% ;
     grid-template-rows:auto;
-    gap:20%;
-    margin-top: 5%;
+    gap:5%;
+    width: 100%;
+    justify-content: center;
 }       
     .card{
       display: flex;
@@ -17,7 +18,7 @@
       margin-bottom: 10%;    
       border: none;
       background-color: transparent;
-    
+      box-shadow: none;
     }
     .pases{
         border-radius:5%;
@@ -30,7 +31,7 @@
 
 .btn{
     text-decoration: none;
-    padding: 5% 5%;
+    padding: 3% 3%;
     display: inline-block;
     border-radius: 3px;
     border-style: groove;

@@ -5,9 +5,11 @@
 .contacto{
        background-color:rgba(0,0,0,.6);
        padding: 5%;
+       margin: 5%;
 }   
 .formulario{
        box-shadow: none;
+       width: 100%;
 } 
 .card-text{
        @include nosotros-texto($fontStyle, 1.2em, $colorFont, transparent);
@@ -19,4 +21,8 @@
      .boton-contacto:hover {
        background-color:orange;
 
+}
+.mapa{
+       margin-left: 5%;
+       margin-right: 5%;
 }

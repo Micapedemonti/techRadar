@@ -3,6 +3,11 @@
    }
    
 body{
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-columns: 1fr;
+    height: 100vh;
+
     background-image: url(../images/sunset.png);
     background-repeat: no-repeat;
     background-size:cover;
@@ -21,10 +26,11 @@ main{
     flex-direction: column;
     display: flex;
     align-items: center;
-    justify-content: center;
+    // justify-content: center;
     color: white;
     font-family: 'Julius Sans One', sans-serif;
-    margin-top: 5%;
-    margin-bottom: 20%;
+    margin:2%;
+    // margin-top: 5%;
+    // margin-bottom: 20%;
 }
  
