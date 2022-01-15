@@ -15,11 +15,12 @@ body {
   background-position: center center;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 1.3em;
+  height: 150px;
 }
 
 main {
@@ -163,6 +164,18 @@ main {
 .text-event {
   font-family: "Jaldi", sans-serif;
   font-size: 1.3em;
+}
+
+.video-ifr {
+  margin: 10%;
+}
+
+.boton {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+  border-style: groove;
+  margin: 10%;
 }
 
 .entradas {
@@ -312,10 +325,6 @@ main {
   }
 }
 @media only screen and (max-width: 663px) {
-  main {
-    margin-bottom: 30%;
-  }
-
   .header {
     flex-direction: column;
   }

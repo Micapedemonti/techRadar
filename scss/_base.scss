@@ -14,12 +14,12 @@ body{
     background-attachment: fixed;
     background-position: center center;
 }
-.header{
+header{
     display:flex;
     justify-content:space-around;
     align-items: center;
     padding:1.3em;
-
+    height: 150px;
 }
 
 main{
