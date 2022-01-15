@@ -90,7 +90,6 @@ main {
   gap: 1%;
   justify-content: center;
   align-items: start;
-  margin-top: 55px;
 }
 
 .eventos {
@@ -114,6 +113,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100%;
 }
 .party h2 {
   font-size: 1.2em;
@@ -170,12 +170,11 @@ main {
   margin: 10%;
 }
 
-.boton {
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 3px;
-  border-style: groove;
-  margin: 10%;
+.form-ctn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .entradas {
@@ -277,10 +276,6 @@ main {
   }
 }
 @media only screen and (max-width: 990px) {
-  main {
-    margin-bottom: 30%;
-  }
-
   .header {
     flex-direction: column;
   }
