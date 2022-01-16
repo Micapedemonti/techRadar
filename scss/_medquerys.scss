@@ -17,8 +17,9 @@ main{
 
 
 @media only screen and (max-width: 990px) {
-.header{
+header{
     flex-direction: column;
+    height: 100%;
 } 
 .menu {
     width: 100%;
@@ -59,12 +60,10 @@ main{
 
 }
 @media only screen and (max-width:663px){
-    // main{
-    //     margin-bottom: 30%;
-    // }
-.header{
+header{
     flex-direction: column;
-}
+    height: 100%;
+} 
 .menu li {
     display:block;          
 } 
@@ -76,7 +75,7 @@ main{
     
 .fotos{
     grid-template-columns:100%;
-    grid-template-rows:auto;
+    grid-template-rows:1fr 1fr 1fr 0.1fr;
  
 
     .party{
