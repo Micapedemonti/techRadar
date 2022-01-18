@@ -3,21 +3,29 @@
 }
 
 
-@mixin nosotros-texto ($fontStyle, $fontTam, $colorFont, $colorBg){
-    font-family:$fontStyle;
+@mixin nosotros-texto ($fontP, $fontTam, $colorFont, $colorBg){
+    font-family:$fontP;
     font-size: $fontTam;
     color:$colorFont;
     background-color:$colorBg;
 }
 .nosotros-texto{
-    @include nosotros-texto ($fontStyle, 1.5em, $colorFont, $colorBg);
+    @include nosotros-texto ($fontP, 1.2em, $colorFont, $colorBg);
       width: 50%;
       animation-duration: 2s;
+      padding:1em;    
+      text-align: center;
+}
+.nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .img-nos{    
     border-radius: 50%;
     opacity: 0.9;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 .animate__backInLeft{
     animation-duration: 2s;

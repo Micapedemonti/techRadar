@@ -4,7 +4,7 @@
    
 body{
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 0.3fr;
     grid-template-columns: 1fr;
     height: 100vh;
 
@@ -26,11 +26,7 @@ main{
     flex-direction: column;
     display: flex;
     align-items: center;
-    // justify-content: center;
     color: white;
     font-family: 'Julius Sans One', sans-serif;
-    // margin:2%;
-    // margin-top: 5%;
-    // margin-bottom: 20%;
 }
  

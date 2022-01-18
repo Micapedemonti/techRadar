@@ -19,14 +19,13 @@
     gap: 1%;
     justify-content: center;
     align-items:start;
-    // margin-top: 55px;
+    margin: auto;
 
 }   
 
 
 .eventos{
-    height: 50%;
-    width: 40%;
+    width:50%;
     border-radius:5%;
     color: $colorFont;
     border:3px solid white;
@@ -46,18 +45,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    // height: 100%;
     & h2 {
       font-size: 1.2em; 
       color: black;
       font-family:$fontStyle;
       background-color: beige;
-      padding: 5%;
+      padding: 2%;
       border-radius: 10px;
     }  
    
     & p{
-     font-family: $fontStyle;
+     font-family: $fontP;
      font-size: 1em;
      tab-size: 10%;
      text-align: center;  

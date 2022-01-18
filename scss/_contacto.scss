@@ -4,8 +4,8 @@
 
 .contacto{
        background-color:rgba(0,0,0,.6);
-       padding: 5%;
-       margin: 5%;
+       padding:1em;
+       margin: 1em;
 }   
 .formulario{
        box-shadow: none;
@@ -27,4 +27,6 @@
 }
 .rowbg{
        background-color: $colorBg;
+       padding: 1em;
+       margin: 1em;
    }

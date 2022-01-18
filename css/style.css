@@ -5,7 +5,7 @@
 
 body {
   display: grid;
-  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 4fr 0.3fr;
   grid-template-columns: 1fr;
   height: 100vh;
   background-image: url(../images/sunset.png);
@@ -61,11 +61,6 @@ main {
   color: white;
 }
 
-.boton-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  background-repeat: no-repeat;
-}
-
 .active {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5%;
@@ -74,7 +69,7 @@ main {
 .welcome-title, .tittle-contact, .entradatit, .prox-event, .nosotros-tittle {
   color: white;
   font-family: "Jaldi", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-align: center;
 }
 
@@ -90,11 +85,11 @@ main {
   gap: 1%;
   justify-content: center;
   align-items: start;
+  margin: auto;
 }
 
 .eventos {
-  height: 50%;
-  width: 40%;
+  width: 50%;
   border-radius: 5%;
   color: white;
   border: 3px solid white;
@@ -119,11 +114,11 @@ main {
   color: black;
   font-family: "Jaldi", sans-serif;
   background-color: beige;
-  padding: 5%;
+  padding: 2%;
   border-radius: 10px;
 }
 .party p {
-  font-family: "Jaldi", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
   tab-size: 10%;
   text-align: center;
@@ -133,18 +128,27 @@ main {
 }
 
 .nosotros-texto {
-  font-family: "Jaldi", sans-serif;
-  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
   width: 50%;
   animation-duration: 2s;
+  padding: 1em;
+  text-align: center;
+}
+
+.nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .img-nos {
   border-radius: 50%;
   opacity: 0.9;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .animate__backInLeft {
@@ -156,8 +160,8 @@ main {
 }
 
 .tit-event {
-  font-family: "Jaldi", sans-serif;
-  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8em;
 }
 
 .text-event {
@@ -182,6 +186,10 @@ main {
   justify-content: flex-start;
 }
 
+.boton a {
+  color: white !important;
+}
+
 .entradas {
   display: grid;
   grid-template-columns: 35% 35%;
@@ -189,6 +197,7 @@ main {
   gap: 5%;
   width: 100%;
   justify-content: center;
+  margin: auto;
 }
 
 .card {
@@ -212,11 +221,8 @@ main {
 }
 
 .btn {
-  text-decoration: none;
-  padding: 3% 3%;
-  display: inline-block;
+  padding: 2% 2%;
   border-radius: 3px;
-  border-style: groove;
 }
 
 .btn-green {
@@ -233,8 +239,8 @@ main {
 
 .contacto {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 5%;
-  margin: 5%;
+  padding: 1em;
+  margin: 1em;
 }
 
 .formulario {
@@ -264,6 +270,8 @@ main {
 
 .rowbg {
   background-color: rgba(0, 0, 0, 0.6);
+  padding: 1em;
+  margin: 1em;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -312,6 +320,7 @@ main {
     grid-template-columns: 40% 40%;
     grid-template-rows: auto;
     gap: 2%;
+    margin: 7%;
   }
 
   .Ad-memb h2 {
@@ -327,6 +336,23 @@ main {
   .controls {
     margin-bottom: 5%;
     font-size: 1em;
+  }
+
+  .contacto {
+    width: 60%;
+  }
+
+  .formulario {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .rowbg {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
   }
 }
 @media only screen and (max-width: 663px) {
@@ -408,7 +434,7 @@ main {
   }
 
   .img-nos {
-    width: 100%;
+    width: 60%;
   }
 
   .nosotros-texto {
