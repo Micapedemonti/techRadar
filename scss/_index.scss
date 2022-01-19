@@ -1,4 +1,4 @@
-   
+   /*----SECCION INDEX---*/
 .welcome-title{
     color:$colorFont;
     font-family: $fontStyle;
@@ -8,8 +8,8 @@
     .animate__animated{
         animation-duration: 3s;
         animation-delay: -0.5s;
-    }
 
+}
 
 .fotos{
    
@@ -52,12 +52,12 @@
       background-color: beige;
       padding: 2%;
       border-radius: 10px;
+      text-align: center;
     }  
    
     & p{
      font-family: $fontP;
-     font-size: 1em;
-     tab-size: 10%;
+     font-size: 1.3em;
      text-align: center;  
      justify-content:center;
      background-color: $colorBg;

@@ -1,26 +1,35 @@
+        
+  
+/*--------MEDIAQUERY-----------*/
+
 @media only screen and (max-width:1500px){
-main{
-    margin-bottom: 5%;
-}
+
 .nosotros-texto{
     margin-top:3%;
 }
-    
+
 .controls{
     margin-bottom:5%;
     font-size: 1em;
 } 
+/*----SECCION EVENTOS---*/
 .videos{
     margin-top: 5%;
 }
 }
 
+/*--------MEDIAQUERY-----------*/
 
 @media only screen and (max-width: 990px) {
 header{
     flex-direction: column;
     height: 100%;
 } 
+.logo{
+    width:100%;
+    height:100%;
+}
+
 .menu {
     width: 100%;
     position: sticky;
@@ -33,6 +42,7 @@ header{
     }    
       
     & li a {
+        font-size: 1.2em;
         text-decoration: none;
         color: white;
         padding: 1.3em;
@@ -54,6 +64,7 @@ header{
     margin-bottom: 15%;
     margin-top: 5%;
 }
+
 .controls {
     margin-bottom: 5%;
     font-size: 1em;
@@ -73,27 +84,34 @@ header{
     width: 60%;
 }
 }
+
+/*--------MEDIAQUERY-----------*/
+
 @media only screen and (max-width:663px){
 header{
     flex-direction: column;
     height: 100%;
 } 
+
+
 .menu li {
     display:block;          
 } 
-            
+.menu li a{
+    font-size: 1.2em;
+}
+
 .welcome-title{
     font-size: 1.5em;
     text-align: center;
-}
-    
+}    
 .fotos{
     grid-template-columns:100%;
     grid-template-rows:1fr 1fr 1fr 0.1fr;
  
 
     .party{
-        padding: 11%;
+        padding: 7%;
 
         &h2{
            font-size: 0.8em;
@@ -109,13 +127,12 @@ header{
         height:auto;
       }  
 }
-.prox-event{
-    font-size: 1.5em;
-}
+
 .videos{
     grid-template-columns:100% ;
     grid-template-rows:20%;
 }
+
 .entradas{
     grid-template-columns:100% ;
     grid-template-rows:50%;
@@ -124,7 +141,8 @@ header{
 .pases{
     width: auto;
     height:auto;
-  } 
+}
+
 .form-contact{
     width:auto;
 }    
@@ -132,24 +150,24 @@ header{
     margin-bottom:5%;
     font-size: 1em;
     }    
-.footer-p{
-    font-size: 0.8em;
-    }   
-.footer-container{
-    position: relative;
-    bottom: 0;
-}    
-.logos{
-    width:60%;
-    height:auto;
-    flex-direction: column;
-}
+  
 .img-nos{
-    width: 60%;
+    width: 80%;
 }
 .nosotros-texto{
     width:100%;
     padding: 5%;
-    font-size: 1.2;
-    }
+    font-size: 1.2em;
+}
+
+/*----FOOTER--*/
+.footer-p{
+    font-size: 0.8em;
+}   
+.footer-container{
+    position: relative;
+    bottom: 0;
+}  
+
+
 }

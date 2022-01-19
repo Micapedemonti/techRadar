@@ -1,18 +1,10 @@
+/*----SECCION EVENTOS---*/
 .prox-event{
     @extend .welcome-title;
 }
-
-.tit-event{
-   font-family: $fontP;
-   font-size: $fontTam;
-} 
-.text-event{
-    font-family: $fontStyle;
-    font-size: 1.3em;
-}
 .video-ifr{
     margin: 3% 0 1% 0;
-    width: auto;
+    width: 83%;
 }
 .form-ctn{
     align-items: center;
