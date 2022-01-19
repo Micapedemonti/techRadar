@@ -1,5 +1,4 @@
 <h1 align="center">Hola 👋, soy Micaela Pedemonti</h1>
-<h3 align="center">Una apasionada desarrolladora frontend de la India</h3>
 
 - 🔭 Actualmente estoy trabajando en [TechnoRadar]( https://techn0radar.000webhostapp.com/)
 
